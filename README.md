@@ -1,23 +1,23 @@
 # EPCW Interactive updates
 
-## Latest: version 2.1.0
+## Latest: version 2.1.1
 
-[Download the 2.1.0 installer](https://raw.githubusercontent.com/goncalvesmathias123-art/mc-stuff/v2.1.0/installers/EPCW-Interactive-2.1.0-Setup.exe).
+[Download the 2.1.1 installer](https://raw.githubusercontent.com/goncalvesmathias123-art/mc-stuff/v2.1.1/installers/EPCW-Interactive-2.1.1-Setup.exe).
 
-Existing launchers on this update host: **Check for updates → Download → Restart & install**. Close both games before installation. Older-host launchers need one manual installation to switch hosts; future updates work in-app.
+On the current update host, use **Check for updates → Download → Restart & install**. Close both games before installation. Older-host launchers need one manual migration installation.
 
-### Gameplay changes
+### Gameplay and visual changes
 
-- 100 courses now have exactly 50 jumps each, with wider gaps and larger platforms.
-- Smoother tile finish and clearer, restrained route and ambient lighting.
-- Running takeoffs work with the restored jump and left/right route bends.
-- The water crawler charges immediately with no escape countdown or post-spawn grace period. Open-water tests measured 0.92 seconds to catch a stationary player and 0.87 seconds to catch a sprinting player. Obstacles and initial distance affect timing.
-- Old 25-jump checkpoint saves migrate to equivalent checkpoints; completed levels, unlocks and launcher settings are retained.
+- Wider gaps, with platform centers 6.25–6.54 metres apart. Sprint takeoffs are recommended. Keeps 100 courses with 50 jumps each and large, smooth landing surfaces.
+- Reference-inspired yellow square tiles, green water, beige walls and warm haze.
+- Split pumpkin creature with a ribbed brown-orange shell, dark mouth, circular ivory fangs, curved stem and long jointed black arms.
+- Eight flying crows with animated wings and smooth tracking around the player's section.
+- Water triggers immediate, near-instant physical pursuit. Open-water trials measured 0.23 seconds stationary and 0.22 seconds sprinting; obstacles/distance affect arrival. Dry platforms break pursuit.
 
-Keeps giant enclosed flooded rooms, fog, next-room previews before six-foot tunnels, and no top-right gift guide. Parkour Paridise 2 remains alongside the standalone game with its Minecraft gift mappings, TikFinity controls, Play Test and overlay. Old Minecraft Water Parkour and Lava Rush remain removed.
+Keeps checkpoint migration, completed levels/unlocks, next-room previews and short physical tunnels. Parkour Paridise 2 and original Minecraft mappings/TikFinity/overlay controls remain alongside the standalone game. Old Minecraft Water Parkour and Lava Rush remain removed. No top-right gift guide.
 
 ### Verification and limits
 
-Passed 6,239 core checks and immediate chase trials. Unchanged course geometry was traversed through all 5,000 actual physics jumps and 100 tunnels in 2.0.9. Also passed 15 launcher tests, browser controls/mapping checks, and launcher-to-exported-game integration on Linux. Moving/timed platforms remain active during traversal; the monster is disabled for route feasibility. Native Windows installation and human balance testing remain unrun. The game uses procedural development art/audio.
+Passed 6,341 core checks, all 5,000 actual physics jumps and 100 tunnels, near-instant chase trials, crow movement/wing checks, 15 launcher tests, browser controls/mappings and launcher-to-exported-game integration on Linux. Moving/timed platforms remain active during traversal; the monster is disabled for route feasibility.
 
-Updates use signed metadata and size/SHA-256 verification with the existing public key. Private keys, credentials and personal settings are excluded. Earlier installers and tags are retained.
+The visuals are a procedural development interpretation of the references. Native Windows installation and human balance testing remain unrun. Signed metadata and installer size/SHA-256 verification use the existing trusted key. No private keys, credentials or personal settings are published. Previous installers and tags are retained.
