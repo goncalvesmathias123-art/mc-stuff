@@ -2,7 +2,7 @@
 
 ## One-time update-host migration: version 2.0.5
 
-[Download the migration installer](https://github.com/goncalvesmathias123-art/mc-stuff/releases/download/v2.0.5/EPCW-Interactive-2.0.5-Migration-Setup.exe).
+[Download the migration installer](https://raw.githubusercontent.com/goncalvesmathias123-art/mc-stuff/85e5aeebcf04065976a00f4364de6a30353686f0/installers/EPCW-Interactive-2.0.5-Migration-Setup.exe).
 
 Close EPCW Interactive, Minecraft and DON'T TOUCH THE WATER, then run the installer once. It installs the new launcher version and moves future update checks to this repository. Existing launcher settings, Parkour mappings and game saves are preserved. Older launcher versions still point to the previous update host and cannot discover this migration automatically.
 
