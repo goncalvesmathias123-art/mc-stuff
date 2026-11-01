@@ -1,17 +1,17 @@
 # EPCW Interactive updates
 
-## Latest: version 2.0.6
+## Latest: version 2.0.7
 
-[Download the 2.0.6 installer](https://raw.githubusercontent.com/goncalvesmathias123-art/mc-stuff/v2.0.6/installers/EPCW-Interactive-2.0.6-Setup.exe).
+[Download the 2.0.7 installer](https://raw.githubusercontent.com/goncalvesmathias123-art/mc-stuff/v2.0.7/installers/EPCW-Interactive-2.0.7-Setup.exe).
 
-If you already installed 2.0.5, use **Check for updates → Download → Restart & install**. Close the launcher and both games before installation. Older-host launchers need one manual installation to switch to this repository; future updates then work in-app. Existing Parkour mappings and level/checkpoint progress are preserved.
+If you already installed 2.0.5 or newer, use **Check for updates → Download → Restart & install**. Close the launcher and both games before installation. Older-host launchers need one manual installation to switch to this repository; future updates then work in-app. Existing Parkour mappings and level/checkpoint progress are preserved.
 
 ### Gameplay changes
 
 - Dense short-range fog: see roughly the next two platforms.
-- Lower, more controllable jumps with normal gravity, lower platforms and shorter gaps. Sinking platforms no longer weaken the jump at takeoff.
+- Stronger original jump and running movement restored, with longer gaps and broad left/right route bends. Wall obstacles sit beside diagonal landing approaches.
 - The next room is already visible before you enter its six-foot tunnel. Crossing promotes that exact room without rebuilding it or moving the player.
-- The monster walks upright with grounded collision, animated strides and obstacle-aware patrol/search paths. It responds to splashes.
+- The monster crawls at water level with animated limbs and obstacle-aware paths. A splash gives a 0.85-second reaction window, then triggers fast pursuit. Reaching a dry platform breaks the chase.
 
 Keeps the enormous enclosed flooded-room setting, 100 courses, 25 jumps per course, and no top-right gift guide. The standalone game requires no Minecraft. Parkour Paridise 2 remains in the launcher with its Minecraft gift mappings, TikFinity controls, Play Test and LIVE Studio overlay. The old Minecraft Water Parkour and Lava Rush remain removed.
 
@@ -21,4 +21,4 @@ The launcher checks signed metadata at `updates/parkour-stable.json`, then verif
 
 ### Validation and limits
 
-Version 2.0.6 passed 3,634 core checks, automated traversal of all 2,500 jumps and 100 tunnels, 15 launcher tests, browser controls/mapping checks and launcher-to-exported-game tests on Linux. Core checks include actual walking patrols and grounding, escaping water with the lower jump, preloaded next-room visibility and continuity across the tunnel. The standalone game remains a development build. Human balance testing and native Windows installation/gameplay testing remain untested.
+Version 2.0.7 passed 3,737 core checks, automated traversal of all 2,500 jumps and 100 tunnels, 15 launcher tests, browser controls/mapping checks and launcher-to-exported-game tests on Linux. Core checks include water-level crawling, splash delay, accelerated chase and dry-platform escape, substantial left/right turns on every route, preloaded next-room visibility and continuity across the tunnel. The standalone game remains a development build. Human balance testing and native Windows installation/gameplay testing remain untested.
