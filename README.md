@@ -1,19 +1,19 @@
 # EPCW Interactive updates
 
-## Latest: version 2.1.8
+## Latest: version 2.1.9
 
-[Download the 2.1.8 installer](https://raw.githubusercontent.com/goncalvesmathias123-art/mc-stuff/v2.1.8/installers/EPCW-Interactive-2.1.8-Setup.exe).
+[Download the 2.1.9 installer](https://raw.githubusercontent.com/goncalvesmathias123-art/mc-stuff/v2.1.9/installers/EPCW-Interactive-2.1.9-Setup.exe).
 
 Use **Check for updates → Download → Restart & install**. Close both games before installation. Older-host launchers require one manual migration installation.
 
-Soft cream-yellow lighting, beige haze and lighter green water follow the latest reference. Platforms and tile detail are brighter and easier to see.
+Every level now has two really tiny **0.75-metre precision pads**, alongside the small and raised platforms. Nearby spacing supports precise landings and takeoffs without turning ordinary jumps into accidental water crossings.
 
-Routes now use long straight runs with gentle turns. Each of 100 levels has raised sections, four tiny landing pads, one swinging hammer and one spinning sweeper more than 70 metres apart. The obstacles use worn metal and yellow-black hazard markings and physically knock the player back.
+Carry up to **20 pebbles**, refilled at checkpoints, level starts and respawns. **Q or left-click** throws. Physical impacts distract the creature for four seconds.
 
-Each level also has a marked 14-metre water gap after a checkpoint. **Q or left-click throws a pebble**: six are available, refilled at checkpoints, level starts and respawns. Physical impacts lure the creature for four seconds. Throw before crossing, run through the water and jump onto the far platform. Normal pursuit targets about 0.7 seconds; real dry landings end it.
+Each level retains a marked gap too wide for a normal jump: throw a pebble before entering the water, cross, then jump onto the far platform. Normal pursuit still targets about 0.7 seconds, while real dry landings end it.
 
-There are 50 platform links per level, including the forced-water crossing. Saves, the serif pause UI, screen-filling view, crows, connected tunnels and two-second catch static remain. Original Parkour Paridise 2 and launcher controls/mappings are preserved.
+Keeps 100 levels, 50 platform links per level, gentler straighter paths, raised sections, a swinging hammer and separated spinning sweeper in every level, reference-style cream lighting and green water, saves, serif pause menu, screen-filling view, crows, connected tunnels and two-second catch static. Original Parkour Paridise 2 and launcher controls/mappings remain.
 
-Validation: 7,251 core checks, actual traversal of 4,900 normal jumps plus 100 forced-water crossings and 100 tunnels, live hammer/sweeper knockback, a physical pebble-assisted dangerous crossing, 15 launcher tests, browser controls and exported-game integration. Windows/Linux compiled scripts and routes match exactly. Native Windows execution and human balancing remain untested.
+Validation: 7,251 core checks, physics traversal across all 100 courses (4,900 jumps, 100 water crossings and 100 tunnels), 20-pebble inventory/refill and live distraction tests, 15 launcher tests, browser controls and actual exported-game integration. Tiny pads require deliberate positioning and run-up. Native Windows execution and human balancing remain untested.
 
-Updates retain the existing signing key. The launcher verifies manifest signature, installer size and SHA-256 before installation. No private key or user data is published. Liberation Serif is redistributed with its SIL Open Font License.
+Updates retain the existing signing key. The launcher verifies signature, installer size and SHA-256 before installation. No private key or user data is published. Liberation Serif is redistributed with its SIL Open Font License.
