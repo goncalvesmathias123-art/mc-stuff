@@ -1,17 +1,18 @@
 # EPCW Interactive updates
 
-## Latest: version 2.2.1
+## Latest: version 2.2.3 — Open Fogwater
 
-[Download the 2.2.1 installer](https://raw.githubusercontent.com/goncalvesmathias123-art/mc-stuff/v2.2.1/installers/EPCW-Interactive-2.2.1-Setup.exe).
+Use **Check for updates → Download → Restart & install** in EPCW Interactive. Close both games first.
 
-Use **Check for updates → Download → Restart & install**. Close both games before installation. Older-host launchers require one manual migration installation.
+This compact update requires an unchanged 2.2.1 installation. It verifies all 128 packaged files, creates a new version folder, preserves settings and saves, and retains the previous installation.
 
-**Q is the only pebble throw key.** Mouse clicks do not throw. The HUD and launcher hints now show Q only; holding Q does not auto-throw. The 20-pebble inventory and checkpoint refills remain.
+- Darker lighting, dark green water, and olive fog.
+- Open courses without surrounding room walls or a ceiling.
+- 15 huge tiled pillars and 80 jumps per level, across 100 levels.
+- Sharp right-angle turns, tiny pads, raised sections, and moving hazards.
+- Existing progress is mapped to the longer courses; monster behavior is unchanged.
+- Replaces the exposed update-signing key and moves migrated apps to the v2 feed. Older apps use the original signed migration feed.
 
-Includes the 2.2.0 fixes: immediate pursuit and contact without a timed hold, longer view distance with preloaded course scenery, correct interior ambient lighting, and removal of repeated loud water-jump splash sounds. Initial splashes/footsteps are softer and pebbles have a quiet plop.
+Validation: 138,141 geometry/route checks, 240 physics jumps on levels 1/50/100, 60 archive checksums, staged exported-game startup, and 7 updater/standalone regression tests passed. Human balancing and live installation remain untested.
 
-Keeps 100 levels, tiny/raised pads, marked water gaps, pebble distractions, gentler routes, hammer and separated spinning sweeper per level, reference lighting/green water, saves, serif pause UI, connected tunnels and catch static. Original Parkour Paridise 2 and launcher mappings/controls remain.
-
-Validation: Q-only input, one throw per press, paused-input guard, Windows/Linux exports, exact installer contents, browser controls and actual exported-game integration. Inherited fixes passed chase/jump/visibility regression tests and 7,251 core checks in 2.2.0. Native Windows execution and performance on the user's PC remain untested.
-
-Updates retain the existing signing key. The launcher verifies signature, installer size and SHA-256. No private key or user data is published. Liberation Serif is redistributed with its SIL Open Font License.
+No private signing key or user data is included.
