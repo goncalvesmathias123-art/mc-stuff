@@ -1,23 +1,23 @@
 # EPCW Interactive updates
 
-## Latest: version 2.1.1
+## Latest: version 2.1.2
 
-[Download the 2.1.1 installer](https://raw.githubusercontent.com/goncalvesmathias123-art/mc-stuff/v2.1.1/installers/EPCW-Interactive-2.1.1-Setup.exe).
+[Download the 2.1.2 installer](https://raw.githubusercontent.com/goncalvesmathias123-art/mc-stuff/v2.1.2/installers/EPCW-Interactive-2.1.2-Setup.exe).
 
-On the current update host, use **Check for updates → Download → Restart & install**. Close both games before installation. Older-host launchers need one manual migration installation.
+Use **Check for updates → Download → Restart & install** on current-host launchers. Close both games before installing. Older-host launchers need one manual migration installation.
 
-### Gameplay and visual changes
+### Changes
 
-- Wider gaps, with platform centers 6.25–6.54 metres apart. Sprint takeoffs are recommended. Keeps 100 courses with 50 jumps each and large, smooth landing surfaces.
-- Reference-inspired yellow square tiles, green water, beige walls and warm haze.
-- Split pumpkin creature with a ribbed brown-orange shell, dark mouth, circular ivory fangs, curved stem and long jointed black arms.
-- Eight flying crows with animated wings and smooth tracking around the player's section.
-- Water triggers immediate, near-instant physical pursuit. Open-water trials measured 0.23 seconds stationary and 0.22 seconds sprinting; obstacles/distance affect arrival. Dry platforms break pursuit.
+- Low hunched creature with a compact rough pumpkin head crawls on four articulated limbs, with connected joints, tendons, claws, textured rind/skin, recessed gums and irregular curved teeth.
+- Rooms are 42 metres tall with upper galleries, railings, service panels/risers, ceiling beams and properly suspended lights. Keeps yellow tiles, green water and warm haze.
+- Water has layered waves, micro-ripple normals, specular/Fresnel shading and a room reflection probe. Tiles have pores, subtle wear, recessed grout and damp patches.
+- Routes have angular left/right zigzags and straight stretches, with centres 7.0–7.23 metres apart and a clear mix of small, medium and large platforms. Sprint and take off near the edge.
+- A catch fills the entire screen with animated grey static for two seconds, then checkpoint respawn. Water-triggered pursuit still has no escape countdown.
 
-Keeps checkpoint migration, completed levels/unlocks, next-room previews and short physical tunnels. Parkour Paridise 2 and original Minecraft mappings/TikFinity/overlay controls remain alongside the standalone game. Old Minecraft Water Parkour and Lava Rush remain removed. No top-right gift guide.
+Keeps 100 levels with 50 jumps each, flying crows, migrated checkpoint saves, completed levels/unlocks, next-room previews and short tunnels. Parkour Paridise 2, original Minecraft mappings, TikFinity and overlay controls remain. Old Minecraft Water Parkour and Lava Rush remain removed. No top-right gift guide.
 
-### Verification and limits
+### Validation and limits
 
-Passed 6,341 core checks, all 5,000 actual physics jumps and 100 tunnels, near-instant chase trials, crow movement/wing checks, 15 launcher tests, browser controls/mappings and launcher-to-exported-game integration on Linux. Moving/timed platforms remain active during traversal; the monster is disabled for route feasibility.
+Passed 6,546 core checks, all 5,000 final mixed-size jumps and 100 tunnels, rear-leg gait tests, near-instant chase trials, rendered static coverage/animation checks, 15 launcher tests, browser controls/mappings and launcher-to-exported-game integration on Linux. Traversal keeps moving/timed platforms active and disables the monster for route feasibility.
 
-The visuals are a procedural development interpretation of the references. Native Windows installation and human balance testing remain unrun. Signed metadata and installer size/SHA-256 verification use the existing trusted key. No private keys, credentials or personal settings are published. Previous installers and tags are retained.
+Art remains procedural development work. Reflection probes capture room surroundings rather than ray-traced moving reflections. Human balancing, native Windows installation and performance on the user's PC are untested. Signed metadata and installer size/SHA-256 verification use the existing trusted key. No private keys, credentials or personal settings are published. Previous installers/tags are retained.
