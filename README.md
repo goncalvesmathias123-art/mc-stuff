@@ -1,9 +1,11 @@
-# EPCW Interactive 2.2.15
+# EPCW Interactive 2.2.16
 
-Galaxy theme for the water game's separate controls: nebula background, translucent violet panels, lavender accents, blue-purple buttons and matching dialogs. Includes 2.2.14's independent gift mappings, LIVE routing, +5 levels and other actions, reset/save countdown and play tests.
+Gold Boxing Glove → Crow push is added to the water game's galaxy controls. The vector glove icon is bundled in the launcher; exact boxing-glove name aliases resolve received LIVE IDs without hard-coded numeric IDs or an assumed coin price. The new mapping is added once to existing water profiles when mapping space is available. Other mappings are retained.
 
-Close both games, then choose Check for updates → Download → Restart & install. Supports unchanged 2.2.3 through 2.2.14.
+The push action now spawns a procedural crow with flapping feathered wings, eyes, beak, tail and synthesized caw. It approaches, locks its attack position and can be dodged. Physical contact applies a decaying shove toward the nearest open platform edge; it does not teleport the player. Each bird strikes once. Up to three active birds, pause handling, lifetime limits, level-change cleanup and cleared respawn momentum prevent lingering attacks.
 
-Validation: browser preview inspected; staged upgrades from 2.2.3 and 2.2.14 passed; four updater tests passed. Game patch and gift logic are byte-for-byte unchanged from 2.2.14. Live installation untested.
+Validation: packaged crow hit/shove/dodge/pause/cleanup checks (11), monster recovery checks (12), pebble trips (13), gift actions (10), and route/physics checks (138641 including 240 jumps) passed. Ten launcher/preset/gift/updater tests passed; final preset/gift subset passed after adding exact alternate names. In-engine crow preview and launcher gift mapping reviewed. Staged upgrades from 2.2.3 and 2.2.15 passed before alias-only refinement; final 2.2.15 staging passed. Real TikFinity LIVE reception and live installation untested.
 
-Installer SHA256: 27c07d60eb3ea1e5d07cfe36a805c33043c71c1ac0bd20755f75bd29ecead17f
+Close both games → Check for updates → Download → Restart & install.
+
+Installer SHA256: 4f4b0d6a1e4c6dc99bd7511540f6dc19317bec7eba2806ad0d5e197c30e171dc
