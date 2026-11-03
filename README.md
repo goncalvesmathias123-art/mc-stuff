@@ -1,15 +1,14 @@
 # EPCW Interactive updates
 
-## Latest: 2.2.4
+## Latest: 2.2.5
 
-In EPCW Interactive choose **Check for updates → Download → Restart & install**. Close both games first. This update requires unchanged 2.2.3; older installations receive the 2.2.3 migration first.
+Use **Check for updates → Download → Restart & install**. Close both games first. Supports unchanged 2.2.3 or 2.2.4; older apps receive the 2.2.3 signing-key migration first.
 
-- Fixes monster pursuit after entering water, including return/search transitions. Pebble distractions remain.
-- Cleaner tile and water shading, anti-aliasing and improved visibility.
-- Longer straights and gentle bends mixed with occasional sharper turns.
-- Wider platform gaps: generally 3.2–4.0 metres; 2.8–3.2 metres at tiny pads.
-- Retains 100 levels, 80 jumps and 15 huge pillars per level, open fog and dark green water.
+- Pebble pursuit now uses the same acceleration and speed calculation as chasing the player. The four-second distraction remains.
+- Each of 100 courses has 10 swinging hammers, 3 spinning sweepers and 5 raised climb/descent sections.
+- Keeps 80 wide jumps, mixed turns, 15 huge pillars, open fog, dark green water and the 2.2.4 graphics improvements.
+- Wider stable hazard pads and re-spaced routes preserve reachable gaps.
 
-Validation: 38 chase regression checks, 138,141 route/pillar checks, 240 actual physics jumps, seven updater/standalone regression tests, staging and exported-game startup passed. Human playthrough and live installation remain untested. Settings and previous installation are preserved.
+Validation: 49 monster/pebble checks, 138,441 route/geometry checks, 240 actual physics jumps, actual hammer collision/knockback, exported-game startup, upgrades from both supported versions, and 7 updater/standalone tests passed. Human balancing and live installation remain untested.
 
-Updates use the replacement signing key. The legacy feed retains the 2.2.3 key-migration update. No private key or user data is included.
+Settings and previous installations are preserved. No private signing key or user data is included.
