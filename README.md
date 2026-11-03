@@ -1,14 +1,14 @@
 # EPCW Interactive updates
 
-## Latest: 2.2.6
+## Latest: 2.2.7
 
-Choose **Check for updates → Download → Restart & install** in EPCW Interactive. Close both games first. Supports unchanged versions 2.2.3, 2.2.4 and 2.2.5; older apps receive the 2.2.3 migration first.
+Choose **Check for updates → Download → Restart & install**. Close both games first. Supports unchanged 2.2.3–2.2.6 installations; older apps receive the 2.2.3 signing migration first.
 
-- Fixes sticking after pebble throws: reachable destinations, body-width obstacle clearance, stall repathing, and moving investigation at the impact site.
-- Keeps chase-speed approach and four-second distraction, then resumes pursuit or swimming.
-- Adds side-to-side movers, 70 cm landing pads, sliding barriers, narrow beams, collapsing pads, and timed disappearing platforms.
-- Keeps hammers, sweepers, raised sections, open fog, 15 pillars and 80 jumps per level.
+- Fixes a reproduced post-pebble freeze when local patrol destinations are unreachable, with fallback roaming and stalled-movement recovery. Navigation no longer treats hazard trigger Areas as physical walls.
+- Three visually distinct creatures with horns, reflective eyes, dorsal spines and water wakes. Pebbles, pause, catch and respawn control the whole group.
+- Positional growls, worn beveled platforms, waterline staining, pillar markings, warning lamps, floating wreckage and cooler horror lighting.
+- Retains 100 levels, 80 jumps, 15 pillars and the existing varied obstacles.
 
-Validation: 49 chase/pebble regressions, 12 navigation/recovery checks, 7 platform-behavior checks, 138,641 route/clearance checks, 240 actual physics jumps, seven updater/standalone tests, staged upgrades from all supported versions, and exported-game startup passed. Human balancing and live installation remain untested.
+Validation: the old blocked-patrol regression moved 0 metres, while the new build moved about 13 metres in the same interval. Five full-level post-pebble movement cases passed; 17 group lifecycle checks passed in source and the packaged game. Existing 49 monster checks, 12 navigation checks, 138,641 route checks and 240 physics jumps passed. All 60 packed checksums and 10 patch contents verified; staged upgrades from four supported versions and seven updater/standalone tests passed. In-engine visuals reviewed. Human playthrough and live installation remain untested.
 
-Settings and previous installations are preserved. No private signing key or user data is included.
+Settings and previous installations are preserved. No private key or user data is included.
