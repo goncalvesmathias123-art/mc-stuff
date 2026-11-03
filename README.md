@@ -1,13 +1,13 @@
 # EPCW Interactive updates
 
-## Latest: 2.2.13
+## Latest: 2.2.14
 
-Choose **Check for updates → Download → Restart & install**. Close both games first. Supports unchanged 2.2.3 through 2.2.12; older apps receive the 2.2.3 migration first.
+Choose **Check for updates → Download → Restart & install**. Close both games first. Supports unchanged 2.2.3 through 2.2.13; older apps receive the 2.2.3 migration first.
 
-Fixes a reproduced monster freeze at wall contact and corners. Shape sweeps could ignore a touching wall because the clearance probe already overlapped it. Corrected the probe start and added a wall ray check. Both creatures can refresh stale obstacle maps and commit to clear recovery detours, including backing away. Net-progress detection also catches corner oscillation. Moving-platform exclusion areas are anchored at their original positions.
+DON'T TOUCH THE WATER now has a separate green-and-gold controls panel in the same launcher, independent gift mappings, game/level status, gift enable/pause, countdown and play tests. TikFinity gifts route to the selected game. Water actions include +1, -1, +5, -5, reset in 60 seconds, save from reset, restart level, push, splash, monster chase, freeze, speed boost, low gravity and random obstacle. Each completed combo triggers once, regardless of repeat count.
 
-Pebbles still require a physical visit before returning toward the player. Wider jump layouts and scenery are unchanged.
+New water profiles inherit configured Parkour gifts, or use the six preset gifts if none are configured. Profiles save independently; switching games pauses gift actions. The reset countdown continues through level changes, returns to level one when it expires, and can be canceled by save. The countdown is also available to the existing read-only LIVE Studio overlay.
 
-Validation: the late-obstacle corner regression failed on 2.2.12 and passes on 2.2.13 for both variants and chase/pebble cases (12 checks). Packaged long pebble detour (7), actual two-creature pebble trips (13), pillar pursuit (6), lifecycle (13), detail/transition (7) and updater tests (7) passed. Staged upgrades from 2.2.3 and 2.2.12 passed. Human playthrough and live installation remain untested.
+Validation: 12 packaged launcher/backend/standalone/updater/overlay tests passed. Ten game action checks, twelve monster recovery checks and thirteen pebble-trip checks passed in the packaged game. An end-to-end simulated gift reached the real packaged game and advanced 20 to 25 exactly once; reset and save succeeded through the authenticated local API. UI preview reviewed and tested in-browser. Staged upgrades from 2.2.3 and 2.2.13 passed. Real TikFinity LIVE reception and live installation remain untested.
 
-Settings and previous installations are preserved. No private key or user data is included.
+Existing jumps, monsters and scenery remain. Settings and previous installations are preserved. No private key or user data is included.
