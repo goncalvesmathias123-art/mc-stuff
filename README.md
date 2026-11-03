@@ -1,18 +1,15 @@
 # EPCW Interactive updates
 
-## Latest: version 2.2.3 — Open Fogwater
+## Latest: 2.2.4
 
-Use **Check for updates → Download → Restart & install** in EPCW Interactive. Close both games first.
+In EPCW Interactive choose **Check for updates → Download → Restart & install**. Close both games first. This update requires unchanged 2.2.3; older installations receive the 2.2.3 migration first.
 
-This compact update requires an unchanged 2.2.1 installation. It verifies all 128 packaged files, creates a new version folder, preserves settings and saves, and retains the previous installation.
+- Fixes monster pursuit after entering water, including return/search transitions. Pebble distractions remain.
+- Cleaner tile and water shading, anti-aliasing and improved visibility.
+- Longer straights and gentle bends mixed with occasional sharper turns.
+- Wider platform gaps: generally 3.2–4.0 metres; 2.8–3.2 metres at tiny pads.
+- Retains 100 levels, 80 jumps and 15 huge pillars per level, open fog and dark green water.
 
-- Darker lighting, dark green water, and olive fog.
-- Open courses without surrounding room walls or a ceiling.
-- 15 huge tiled pillars and 80 jumps per level, across 100 levels.
-- Sharp right-angle turns, tiny pads, raised sections, and moving hazards.
-- Existing progress is mapped to the longer courses; monster behavior is unchanged.
-- Replaces the exposed update-signing key and moves migrated apps to the v2 feed. Older apps use the original signed migration feed.
+Validation: 38 chase regression checks, 138,141 route/pillar checks, 240 actual physics jumps, seven updater/standalone regression tests, staging and exported-game startup passed. Human playthrough and live installation remain untested. Settings and previous installation are preserved.
 
-Validation: 138,141 geometry/route checks, 240 physics jumps on levels 1/50/100, 60 archive checksums, staged exported-game startup, and 7 updater/standalone regression tests passed. Human balancing and live installation remain untested.
-
-No private signing key or user data is included.
+Updates use the replacement signing key. The legacy feed retains the 2.2.3 key-migration update. No private key or user data is included.
