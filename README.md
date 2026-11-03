@@ -1,11 +1,11 @@
-# EPCW Interactive 2.2.16
+# EPCW Interactive 2.2.17
 
-Gold Boxing Glove → Crow push is added to the water game's galaxy controls. The vector glove icon is bundled in the launcher; exact boxing-glove name aliases resolve received LIVE IDs without hard-coded numeric IDs or an assumed coin price. The new mapping is added once to existing water profiles when mapping space is available. Other mappings are retained.
+Every level now includes eight stationary small pads with seven small-to-small jumps, gently zigzagging about nine degrees either side of the section's main direction. Pads are 0.70-0.95 m wide and the section has roughly 3.15 m water gaps. Nearby hammer/slider positions were relocated to keep the small-pad run clear. Each level still has 80 jumps and the previous obstacle counts.
 
-The push action now spawns a procedural crow with flapping feathered wings, eyes, beak, tail and synthesized caw. It approaches, locks its attack position and can be dodged. Physical contact applies a decaying shove toward the nearest open platform edge; it does not teleport the player. Each bird strikes once. Up to three active birds, pause handling, lifetime limits, level-change cleanup and cleared respawn momentum prevent lingering attacks.
+Reference-inspired scenery and obstacles: two yellow-railed pillar stairways with elevated landings and lights, yellow-railed distant walkways, three playable tiled stair platforms with smooth collision ramps, an added narrow balance beam, raised plinths, moss streaks, wet surface highlights, smoother dark water, four reflected route lamps, and striped hammer frames with chains and bolted weights. Monsters now account for convex stair/ramp geometry when planning around obstacles. Hazard impacts use the existing decaying physical knockback system. The monster models, crow gift and galaxy launcher remain.
 
-Validation: packaged crow hit/shove/dodge/pause/cleanup checks (11), monster recovery checks (12), pebble trips (13), gift actions (10), and route/physics checks (138641 including 240 jumps) passed. Ten launcher/preset/gift/updater tests passed; final preset/gift subset passed after adding exact alternate names. In-engine crow preview and launcher gift mapping reviewed. Staged upgrades from 2.2.3 and 2.2.15 passed before alias-only refinement; final 2.2.15 staging passed. Real TikFinity LIVE reception and live installation untested.
+Validation: all 8000 jumps passed actual physics simulation in source and packaged game, with 146401 route/clearance/physics checks. All 100 levels meet the clear seven-jump gentle-zigzag requirement. Packaged reference/stair climbing checks (28), visual/transition checks (26), convex ramp navigation checks (7), monster recovery checks (12), crow checks (11), and four updater tests passed. Staged upgrades from 2.2.3 and 2.2.16 passed. In-engine map and small-pad previews inspected. Real human playthrough and live installation remain untested.
 
 Close both games → Check for updates → Download → Restart & install.
 
-Installer SHA256: 4f4b0d6a1e4c6dc99bd7511540f6dc19317bec7eba2806ad0d5e197c30e171dc
+Installer SHA256: 7bb1090e32c6f885050de59c5be8cc2432487de64eee24b9e70d4434abbe78c4
