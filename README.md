@@ -1,14 +1,14 @@
 # EPCW Interactive updates
 
-## Latest: 2.2.5
+## Latest: 2.2.6
 
-Use **Check for updates → Download → Restart & install**. Close both games first. Supports unchanged 2.2.3 or 2.2.4; older apps receive the 2.2.3 signing-key migration first.
+Choose **Check for updates → Download → Restart & install** in EPCW Interactive. Close both games first. Supports unchanged versions 2.2.3, 2.2.4 and 2.2.5; older apps receive the 2.2.3 migration first.
 
-- Pebble pursuit now uses the same acceleration and speed calculation as chasing the player. The four-second distraction remains.
-- Each of 100 courses has 10 swinging hammers, 3 spinning sweepers and 5 raised climb/descent sections.
-- Keeps 80 wide jumps, mixed turns, 15 huge pillars, open fog, dark green water and the 2.2.4 graphics improvements.
-- Wider stable hazard pads and re-spaced routes preserve reachable gaps.
+- Fixes sticking after pebble throws: reachable destinations, body-width obstacle clearance, stall repathing, and moving investigation at the impact site.
+- Keeps chase-speed approach and four-second distraction, then resumes pursuit or swimming.
+- Adds side-to-side movers, 70 cm landing pads, sliding barriers, narrow beams, collapsing pads, and timed disappearing platforms.
+- Keeps hammers, sweepers, raised sections, open fog, 15 pillars and 80 jumps per level.
 
-Validation: 49 monster/pebble checks, 138,441 route/geometry checks, 240 actual physics jumps, actual hammer collision/knockback, exported-game startup, upgrades from both supported versions, and 7 updater/standalone tests passed. Human balancing and live installation remain untested.
+Validation: 49 chase/pebble regressions, 12 navigation/recovery checks, 7 platform-behavior checks, 138,641 route/clearance checks, 240 actual physics jumps, seven updater/standalone tests, staged upgrades from all supported versions, and exported-game startup passed. Human balancing and live installation remain untested.
 
 Settings and previous installations are preserved. No private signing key or user data is included.
