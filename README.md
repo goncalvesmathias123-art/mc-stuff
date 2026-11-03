@@ -1,13 +1,14 @@
 # EPCW Interactive updates
 
-## Latest: 2.2.10
+## Latest: 2.2.11
 
-Choose **Check for updates → Download → Restart & install**. Close both games first. Supports unchanged versions 2.2.3–2.2.9; older apps receive the 2.2.3 migration first.
+Choose **Check for updates → Download → Restart & install**. Close both games first. Supports unchanged versions 2.2.3 through 2.2.10; older apps receive the 2.2.3 migration first.
 
-- Creatures physically visit the pebble landing area, then immediately return toward the player. Unreachable impacts use the nearest reachable water edge. Removed the timed cutoff and circling wait.
-- Exactly two creatures: the original pumpkin and a procedural gaunt crawler inspired by the supplied reference, with exposed ribs, long jointed limbs, fingers/claws, pointed ears, teeth, pale eyes and hanging black hair.
-- Slightly thicker distance fog; retains the caged lanterns, reflections, worn tiles, courses and obstacles.
+- Detailed worn ceramic tile texture, fine cracks, chipped grout, moss, water stains and wet platform highlights.
+- Distant elevated walkways with tiled piers, railings and amber marker lights.
+- Light drifting green ground mist, disabled on low graphics.
+- Keeps exactly two creatures, actual pebble visits followed by pursuit, 100 levels and varied parkour obstacles.
 
-Validation: a long-detour pebble test reached the impact after 2.18 seconds, then returned and attacked; seven checks passed. Actual thrown-projectile testing recorded one completed arrival by each creature; 13 checks passed. Two-creature lifecycle (13) and visual/transition checks (26) passed, including in the packaged game. Seven updater/standalone tests passed. Staged upgrades from 2.2.3 and 2.2.9 and verification of intermediate versions passed. In-engine creature preview reviewed. Human playthrough and live installation remain untested.
+Validation: packaged visual/transition checks (26), new detail checks (7), two-creature pebble trips (13), long-detour pebble pursuit (7), creature lifecycle (13), route/clearance checks (138641 including 240 physics jumps), and seven updater/standalone tests passed. Staged upgrades from 2.2.3 and 2.2.10 passed. Packaged scene preview reviewed. Human playthrough and live installation remain untested.
 
-The crawler is a procedural interpretation, not an imported original 3D asset. Settings and previous installations are preserved. No private key or user data is included.
+The generated texture and procedural scene are an interpretation of the reference, not a recreation of its render quality. Settings and previous installations are preserved. No private key or user data is included.
