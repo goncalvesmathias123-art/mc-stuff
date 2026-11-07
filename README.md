@@ -1,11 +1,9 @@
-# EPCW Interactive 2.2.20
+# EPCW Interactive 2.2.21
 
-Monsters keep up across the full course with distance-based catch-up swimming. Obstacle-grid rasterization now checks cell centers to avoid unnecessarily closing water passages. Far-away unreachable goals approach the nearest reachable bank rather than treating the creature's current position as its destination. Close-range spacing and physical pebble trips remain.
+Minecraft Chat Chunk is a separate mode inside the existing launcher. Viewers type a valid block name in TikTok chat (for example stone, glass, diamond block, or minecraft:oak_planks). The launcher queues each accepted message and transforms the existing blocks across the current player's 16 by 16 chunk, throughout the dimension's height. Air remains open. The chunk is selected when a queued message begins. Queue capacity is 30; pause cancels pending LIVE work.
 
-Landing on a course's final checkpoint automatically advances one level. The player is placed on the next course's starting pad with its proper respawn point; the former completion code moved the player back to the previous exit after loading. Final platforms display NEXT LEVEL, or FINISH on level 100. Intermediate checkpoints still save progress and refill pebbles. Level 100 completion ends the game without an invalid level 101 load.
+Close both games, then Check for updates -> Download -> Restart & install. Select Minecraft Chat Chunk and launch Minecraft. Create a separate Java world named Chat Chunk once, enter it, and click Activate this world. Link TikFinity Desktop (Events API enabled), then Enable chat blocks. Terrain changes are permanent. Parkour worlds are rejected. Existing water-game content, gifts, and centered transparent SAVE overlay remain unchanged.
 
-Validation: source full-course pursuit tests passed on levels 1, 50 and 100, including water attacks at the end. Sampled following distances in these tests stayed below 18 metres after the fix, compared with over 30 metres in the original level-one test. Packaged level-50 pursuit passed. Packaged checkpoint progression checks (22), creature spacing/shared targets (15), five actual-world pebble trips, freeze recovery (12), convex navigation (7), gift and +/-10 actions (15), crow push (11), and four updater tests passed. Staged upgrades from 2.2.3 and 2.2.19 passed. Level data, gifts and centered transparent overlay are unchanged. Human playthrough and live installation remain untested.
+Validation: 19 launcher tests passed, plus 11 packaged routing, game and updater tests. Runtime tests used the installed Minecraft Java 26.2 registry, BlockPos and BlockState classes: 98,304 cells checked, 32,768 non-air replacements, preserved air, correct negative chunk boundaries, 24 bounded ticks, duplicate request handling and invalid block rejection. The test world was simulated; no real saves were edited. Browser preview verified. Staged upgrades from 2.2.3 and 2.2.20 passed. A real TikTok LIVE and a human in-game playthrough remain unverified.
 
-Close both games → Check for updates → Download → Restart & install.
-
-Installer SHA256: 2e36eba59b488c5bb32d00ce6c898e95848d971c0c96e4a01189a061a35e53b4
+Installer SHA256: b3ba549edb8d39c4a79f4b9241688972c7bf8d3888218b9a61fe89bf65a6b7d1
